@@ -12,6 +12,7 @@ export default class MainPage extends Component {
     return (
       <View>
         <Button title="Swiper" onPress={() => navigate("Swiper")} />
+        <Button title="expo_FBlogin" onPress={() => navigate("FbLogin")} />
       </View>
     );
   }
